@@ -182,7 +182,7 @@ sys.modules["pywebAi"] = pywebAi
 `);
 
     // تشغيل ملف x.py
-    const scripts = document.querySelectorAll('script[type="pyweb"]');
+    const scripts = document.querySelectorAll('script[type=pyweb]');
     for (const script of scripts) {
         const src = script.getAttribute("src");
         if (!src) continue;
